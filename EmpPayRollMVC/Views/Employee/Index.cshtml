@@ -1,0 +1,66 @@
+﻿@model IEnumerable<CommonLayer.Models.EmployeeModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+ <h3 class ="text-center">List Of Employee's</h3>
+<p>
+    <a asp-action="AddEmployee" class="btn btn-success text-white" >AddEmployee</a>
+</p>
+<div  class="form-content">
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProfImg)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Department)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <img src="@Url.Content(item.ProfImg)">
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Department)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                 <a asp-action="UpdateEmpDetails" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="getDetailsById"  asp-route-id="@item.Id">Details</a> |
+                <a asp-action="DeleteEmp" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

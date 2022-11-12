@@ -1,0 +1,13 @@
+D:\EmpPayRollAdOMVC\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.deps.json
+D:\EmpPayRollAdOMVC\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.dll
+D:\EmpPayRollAdOMVC\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.pdb
+D:\EmpPayRollAdOMVC\RepositoryLayer\bin\Debug\netcoreapp3.1\CommonLayer.dll
+D:\EmpPayRollAdOMVC\RepositoryLayer\bin\Debug\netcoreapp3.1\CommonLayer.pdb
+D:\EmpPayRollAdOMVC\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csproj.AssemblyReference.cache
+D:\EmpPayRollAdOMVC\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\EmpPayRollAdOMVC\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.AssemblyInfoInputs.cache
+D:\EmpPayRollAdOMVC\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.AssemblyInfo.cs
+D:\EmpPayRollAdOMVC\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csproj.CoreCompileInputs.cache
+D:\EmpPayRollAdOMVC\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csproj.CopyComplete
+D:\EmpPayRollAdOMVC\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.dll
+D:\EmpPayRollAdOMVC\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.pdb
